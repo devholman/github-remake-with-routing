@@ -1,0 +1,138 @@
+
+*{
+	box-sizing:border-box;
+	margin:0;
+}
+.searching{
+	background: #F2F1EF;
+    border:1px solid #F2F1EF;
+}
+
+#search-bar{
+    display: block;
+    text-align: center;
+    margin: 2.5% 22%;
+    width:30%;
+    text-decoration:none;
+    outline: none;
+}
+
+#container{
+	margin:5%;
+	text-align:center;
+	
+}
+
+.profile_container{
+	font-size:20px;
+	color:black;
+	width:20%;
+	display:inline-block;
+}
+
+		.profile_container h1 {
+			    margin: 10px auto;
+			    border-top:1px solid #F2F1EF;
+		}
+
+		.profile_container img{
+			width:100%;
+			border-radius:5%;
+		}
+
+		.profile_container h2{
+			color:dimgray;
+			margin:11px auto;
+			text-align:left;
+		}
+
+	.icon {
+		display: inline-block;
+		width: 1em;
+		height: 1em;
+		fill: currentColor;
+	}
+
+	.location{
+		display:block;
+		border-top: 1px solid #F2F1EF;
+		text-align:left;
+	}
+		.location ul {
+		    padding: 2px;
+		    margin:10px;
+		}
+
+		.location h4 {
+		    display: inline-block;
+		    margin: 2px 10px;
+		}
+	.stats-container{
+		display:block;
+		border-top:1px solid #F2F1EF;
+	}
+
+		.stats{
+			display:inline-block;
+			width: 20%;
+		}
+			.stats h3 {
+			    margin: 2px auto;
+			    color:cadetblue;
+			    text-align:center;
+			}
+
+		.stat-urls{
+			margin:20%;
+			width:30%;
+			text-align: center;
+			text-decoration:none;
+			color:dimgrey;
+		}
+
+.repo_container{
+	display:inline-block;
+	width:50%;
+	vertical-align:top;
+	margin:auto 5%;
+	border:1px solid #F2F1EF;
+	/*border-radius:10%;*/
+	/*background:#F2F1EF;*/
+
+}
+	.repo-title{
+		background:#F2F1EF;
+	}
+
+	.repo-title p{
+		margin:0;
+	}
+
+	.repo-list {
+	    display: inline-block;
+	    /*border: 1px solid;*/
+	    width: 100%;
+	    position: relative;
+	    padding: 0;
+	    margin: 0;
+	    text-align: left;
+	    border-top: 1px solid #F2F1EF;
+
+	 }
+
+	 .repo-list a{
+	 	    color: #4078c0;
+    		text-decoration: none;
+    		margin-left: 2%;
+	 }
+	 .repo-list icon-bookmarks{
+	 	margin:20px 2px;
+	 }
+
+	 .repo-list p{
+	 	text-align:right;
+	 	display:inline-block;
+	 }
+
+
+
